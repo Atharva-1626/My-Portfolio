@@ -1,6 +1,6 @@
 /* =========================================
    SCRIPT.JS — Personal Portfolio
-   Author: Your Name
+   Author: Atharva Sautadekar
    Description: Navbar, animations, form, 
                 mobile menu, scroll-to-top
    ========================================= */
