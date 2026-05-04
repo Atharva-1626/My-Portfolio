@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Playfair Display + DM Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Phosphor Icons (lightweight icon set) -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.0.3/src/index.js" defer></script>
+</head>
+<body>
+
+  <!-- ========== STICKY NAVIGATION ========== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">YN.</a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#education">Education</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO / HOME SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-content fade-in">
+      <span class="hero-greeting">Hello, I'm</span>
+      <h1 class="hero-name">Your Name</h1>
+      <p class="hero-tagline">Student &nbsp;|&nbsp; Web Developer &nbsp;|&nbsp; Problem Solver</p>
+      <p class="hero-desc">
+        I create clean, functional, and user-friendly web experiences. 
+        Currently pursuing my studies while building real-world projects.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <!-- Decorative floating shapes -->
+    <div class="hero-shape shape-1"></div>
+    <div class="hero-shape shape-2"></div>
+    <div class="hero-shape shape-3"></div>
+  </section>
+
+  <!-- ========== ABOUT ME SECTION ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid fade-in">
+        <!-- Profile Image Placeholder -->
+        <div class="about-image-wrap">
+          <div class="about-image-placeholder">
+            <i class="ph ph-user"></i>
+          </div>
+          <div class="about-badge">
+            <i class="ph ph-graduation-cap"></i>
+            <span>Student</span>
+          </div>
+        </div>
+
+        <!-- About Text -->
+        <div class="about-text">
+          <h3>Hi there! I'm <span class="highlight">Your Name</span></h3>
+          <p>
+            I am a passionate and dedicated student currently pursuing a degree in Computer Science / Information Technology. 
+            I have a keen interest in web development, design, and technology. I enjoy turning ideas into reality using code.
+          </p>
+
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="ph ph-map-pin"></i>
+              <span>City, Country</span>
+            </div>
+            <div class="detail-item">
+              <i class="ph ph-envelope"></i>
+              <span>yourname@email.com</span>
+            </div>
+            <div class="detail-item">
+              <i class="ph ph-calendar"></i>
+              <span>Available for Internships</span>
+            </div>
+          </div>
+
+          <div class="about-cards">
+            <div class="about-card">
+              <h4>My Values</h4>
+              <p>Integrity, continuous learning, collaboration, and delivering quality work in everything I do.</p>
+            </div>
+            <div class="about-card">
+              <h4>My Goals</h4>
+              <p>To become a full-stack developer, contribute to open-source projects, and build solutions that make a difference.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Skills & Attributes</h2>
+      </div>
+
+      <div class="skills-grid fade-in">
+        <!-- Technical Skills -->
+        <div class="skills-block">
+          <h3 class="skills-block-title">
+            <i class="ph ph-code"></i> Technical Skills
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>HTML & CSS</span><span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>JavaScript</span><span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>Python</span><span>65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="65"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>React</span><span>55%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="55"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>Git & GitHub</span><span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="70"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skills-block">
+          <h3 class="skills-block-title">
+            <i class="ph ph-users"></i> Soft Skills
+          </h3>
+          <div class="soft-skills-list">
+            <div class="soft-skill-tag"><i class="ph ph-chat-circle-text"></i> Communication</div>
+            <div class="soft-skill-tag"><i class="ph ph-handshake"></i> Teamwork</div>
+            <div class="soft-skill-tag"><i class="ph ph-lightbulb"></i> Problem Solving</div>
+            <div class="soft-skill-tag"><i class="ph ph-clock"></i> Time Management</div>
+            <div class="soft-skill-tag"><i class="ph ph-brain"></i> Critical Thinking</div>
+            <div class="soft-skill-tag"><i class="ph ph-arrows-clockwise"></i> Adaptability</div>
+            <div class="soft-skill-tag"><i class="ph ph-target"></i> Goal Oriented</div>
+            <div class="soft-skill-tag"><i class="ph ph-magnifying-glass"></i> Attention to Detail</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects & Assignments</h2>
+      </div>
+
+      <div class="projects-grid fade-in">
+
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+            <i class="ph ph-browser"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <h3>Personal Portfolio Website</h3>
+            <p>A clean, responsive portfolio website built from scratch using HTML, CSS, and JavaScript. Includes smooth scroll, animations, and a mobile menu.</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+            <i class="ph ph-shopping-cart"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3>E-Commerce Product Page</h3>
+            <p>A simulated product listing page with add-to-cart functionality, product filters, and a responsive grid layout. Built as a class assignment.</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+            <i class="ph ph-cloud-sun"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>JavaScript</span><span>API</span>
+            </div>
+            <h3>Weather Dashboard App</h3>
+            <p>A weather app that fetches live data from a public API and displays current temperature, humidity, and forecast for any searched city.</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACHIEVEMENTS SECTION ========== -->
+  <section class="section section-alt" id="achievements">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">My Wins</span>
+        <h2 class="section-title">Accomplishments & Achievements</h2>
+      </div>
+
+      <div class="achievements-grid fade-in">
+
+        <div class="achievement-card">
+          <div class="achievement-icon" style="background: #fff7ed; color: #ea580c;">
+            <i class="ph ph-certificate"></i>
+          </div>
+          <h4>Web Development Certificate</h4>
+          <p>Completed a 3-month online course on full-stack web development from Udemy / Coursera.</p>
+          <span class="achievement-year">2024</span>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon" style="background: #f0fdf4; color: #16a34a;">
+            <i class="ph ph-trophy"></i>
+          </div>
+          <h4>Hackathon Participant</h4>
+          <p>Participated in a 24-hour college hackathon and built a prototype for a student management system.</p>
+          <span class="achievement-year">2024</span>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon" style="background: #eff6ff; color: #2563eb;">
+            <i class="ph ph-star"></i>
+          </div>
+          <h4>Academic Excellence Award</h4>
+          <p>Recognized for achieving the highest marks in the Web Technologies subject during Semester III.</p>
+          <span class="achievement-year">2023</span>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon" style="background: #fdf4ff; color: #9333ea;">
+            <i class="ph ph-medal"></i>
+          </div>
+          <h4>Python Programming Badge</h4>
+          <p>Earned a verified badge from an online learning platform after completing the Python Fundamentals course.</p>
+          <span class="achievement-year">2023</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION SECTION ========== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Education & Training</h2>
+      </div>
+
+      <div class="timeline fade-in">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2022 – Present</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <p class="timeline-school"><i class="ph ph-buildings"></i> XYZ College / University</p>
+            <p>Studying core subjects including Data Structures, Web Development, Database Management, and Software Engineering. CGPA: 8.5 / 10</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2020 – 2022</span>
+            <h4>Higher Secondary Certificate (HSC) – Science</h4>
+            <p class="timeline-school"><i class="ph ph-buildings"></i> ABC Junior College</p>
+            <p>Completed 12th grade with a focus on Physics, Chemistry, and Mathematics. Scored 85% overall.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2023 – Online</span>
+            <h4>Web Development Bootcamp</h4>
+            <p class="timeline-school"><i class="ph ph-globe"></i> Udemy / Coursera</p>
+            <p>Completed a comprehensive course covering HTML, CSS, JavaScript, and Responsive Design. Issued verified certificate.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS SECTION ========== -->
+  <section class="section section-alt" id="testimonials">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">What Others Say</span>
+        <h2 class="section-title">Testimonials</h2>
+      </div>
+
+      <div class="testimonials-grid fade-in">
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="ph ph-quotes"></i></div>
+          <p>"Your Name is an exceptional student who consistently demonstrates creativity and dedication. Their project submissions are always well-structured, thoughtful, and on time."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SP</div>
+            <div>
+              <strong>Prof. S. Patil</strong>
+              <span>Web Technologies Instructor</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="ph ph-quotes"></i></div>
+          <p>"Working with Your Name in our hackathon team was a great experience. They brought fresh ideas to the table and kept the team motivated throughout the 24-hour event."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RK</div>
+            <div>
+              <strong>Rahul K.</strong>
+              <span>Classmate & Project Partner</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="ph ph-quotes"></i></div>
+          <p>"I've seen significant growth in Your Name's technical skills over the past year. They are self-driven, ask the right questions, and always strive to improve their work."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AM</div>
+            <div>
+              <strong>Anita M.</strong>
+              <span>Mentor, Coding Club</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Say Hello</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+
+      <div class="contact-wrapper fade-in">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>I'm currently open to internship opportunities, freelance projects, and academic collaborations. Feel free to reach out!</p>
+
+          <div class="contact-links">
+            <a href="mailto:yourname@email.com" class="contact-link">
+              <div class="contact-link-icon"><i class="ph ph-envelope"></i></div>
+              <div>
+                <strong>Email</strong>
+                <span>yourname@email.com</span>
+              </div>
+            </a>
+            <a href="#" class="contact-link">
+              <div class="contact-link-icon"><i class="ph ph-linkedin-logo"></i></div>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>linkedin.com/in/yourname</span>
+              </div>
+            </a>
+            <a href="#" class="contact-link">
+              <div class="contact-link-icon"><i class="ph ph-github-logo"></i></div>
+              <div>
+                <strong>GitHub</strong>
+                <span>github.com/yourname</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Let's collaborate!" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="ph ph-paper-plane-tilt"></i> Send Message
+          </button>
+          <!-- Success / error message displayed by JS -->
+          <p class="form-status" id="formStatus"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 <strong>Your Name</strong>. Designed & Built with ❤️</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+      <i class="ph ph-arrow-up"></i>
+    </button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
